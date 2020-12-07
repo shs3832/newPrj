@@ -124,9 +124,7 @@ export default {};
 
     > div {
         padding: 0 40px;
-        &:last-child {
-            padding-bottom: 150px;
-        }
+
         &:nth-child(even) {
             background: #f5f5f5;
         }
