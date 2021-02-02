@@ -4,6 +4,7 @@
             <h1>Simple but Effective..</h1>
             <router-link to="/main">Home</router-link>
             <router-link to="/works">Portfolio</router-link>
+            <router-link to="/playground">playground</router-link>
         </div>
     </div>
 </template>
@@ -38,6 +39,7 @@
             @media screen and (max-width: 768px) {
                 margin: 0 15px;
             }
+            &:nth-child(3),
             &:last-child {
                 margin-left: 20px;
                 @media screen and (max-width: 768px) {
