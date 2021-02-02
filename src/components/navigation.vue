@@ -4,7 +4,7 @@
             <h1>Simple but Effective..</h1>
             <router-link to="/main">Home</router-link>
             <router-link to="/works">Portfolio</router-link>
-            <router-link to="/playground">playground</router-link>
+            <router-link to="/playground">Playground</router-link>
         </div>
     </div>
 </template>
