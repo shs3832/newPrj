@@ -1,7 +1,7 @@
 <template>
     <section class="playground">
         <div class="playground_wrap">
-            <h2><i class="fas fa-desktop"></i>Git repository</h2>
+            <h2><i class="fas fa-desktop"></i>Git Repository</h2>
 
             <p>
                 업무 진행시 혹은 틈날때 하나씩 만들어본 소스코드를 업로드해두는
@@ -22,10 +22,13 @@
                         - 공개된 api가 흔하지않아 구하는데 어려움은 있었습니다.
                         <br />
                         - CORS 이슈가 가장 컸으며 vue.config.js 파일에 proxy
-                        설정 및 axios instance에 Access-Control-Allow-Origin
-                        설정을 하는등 <br />여러 시도를 거쳤습니다만 서버에
-                        인증이 필요한것이었던건지 시간이 지나서 자연스럽게
-                        해결됐었습니다
+                        설정으로 로컬에선 데이터 받아서 뿌리는것까지
+                        성공했습니다 - repository에 마크다운으로 설명글
+                        달아뒀지만 서버쪽에서 cors 설정을 해줘야할것으로
+                        보입니다 - 배포까지가 목표였는데 조금은 아쉬운
+                        작업이었습니다 - env 환경파일을 써보는것도
+                        좋은경험이었고 cors 이슈에 관해선 좀더 공부와 실무경험이
+                        필요해보입니다
                         <br />
                     </p>
                     <div class="url">
